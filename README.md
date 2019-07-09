@@ -1,11 +1,12 @@
 Description
 ===========
 
-This bot is a hack from my mpos bot for pools. Use at your own risk
+This bot was hacked up to give BTC prices from multiple exchanges.  Use at your own risk
 
 Requirements
 ============
 
+* python2
 * python-daemon
 
 Installation
@@ -59,13 +60,6 @@ Whenever you are working with commands you might want to re-load these
 without re-starting the bot. You can do so by sending the `SIGUSR1`
 signal to the process. It will re-hash all commands available and you
 should be able to try them out or edit them anytime.
-
-Blocknotify
-===========
-
-The bot does support coins blocknotify scripts. As with reloading
-commands, send a `SIGUSR1` call to the process to enforce a blockupdate
-request. Might be useful for those with very fast block finding rates.
 
 License
 =======
